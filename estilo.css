@@ -3,6 +3,8 @@
 h1{
     color:#fc514e;
 	text-align: center;
+    padding-bottom:50px;
+    padding-top:20px;
 }
 
 /*subtitulos*/
@@ -12,10 +14,6 @@ h2{
     align:center;
     font-size: 32px
 }
-h3{
-    coor:#fc514e;
-    font-size: 32px;
-}
 
 article div h2{
     text-align: left;
@@ -24,17 +22,25 @@ article div h2{
     margin-left:250px;
     font-size: 32px
 }
+
+h3{
+    color:#fc514e;
+    font-size: 32px;
+}
+
+/********************* texts *********************************/ 
+/*texto do bloco 1*/
 .texto_branco{
     color:#eeeeee;
 }
-div p strong{
-    color:#e3d18a;
-}
+/*texto do bloco 1 
+(apos formulario)*/
 .texto_rosinha{
     color:#ff5874;
     font-size:23px;
     text-align:center;
 }
+/*texto destacado do bloco 4*/
 .texto_destaque{
     font-size:25px;
     color:#1d3b53;
@@ -44,46 +50,70 @@ div p strong{
     padding: 10px;
     width:252px;
 }
-.float_right{
-	float:right;
-	margin-right:0px;
-}
-
-.float_center{
- 	color: #0018ff;
-	float:center;
-}
-
-/*----------------Floats do Bloco 2---------------- 2*/
-.float_left{
- 	color: #0018ff;
-	float:left;
-	width:800px;
-	margin-left:50px;
-}
-
-.float_left2texto{ 
-	font-family:Arial;
-	font-size:15px;
-	color:#ff0000
-}
-
-.text_center{
-    padding-top:750px;
-    text-align: center;
-}
 
 .texto_bloco3{
     text-align: left;
     margin-left: 150px;
 }
 
+/*style do negrito*/
+div p strong{
+    color:#e3d18a;
+}
+
+/*texto centralizado*/
+.text_center{
+    padding-top:800px;
+    padding-bottom:50px;
+    text-align: center;
+}
+/*texto bloco 5*/
+.texto_info{
+    font-size:25px;
+    padding:15px;
+    padding-left:150px;
+    color:#acb4c2;
+    width:600px;
+}
+
+/*style da lista do bloco 3 (branco)*/
+div div li{
+    color:black;
+    padding: 12px;
+    width:400px;
+}
+/*style da lista do bloco 4*/
+li{
+    color:#a1aab8;
+    padding:12px;
+    width:400px;
+}
+
+/********************* end texts ********************************/ 
+
+/******************** Floats ************************************/
+/*float esquerdo*/
+.float_left{
+ 	color: #0018ff;
+	float:left;
+	width:800px;
+	margin-left:50px;
+}
+/*float direito*/
+.float_right{
+	float:right;
+	margin-right:0px;
+}
+/*float da imagem 2*/
 .displayed {
     display: block;
     margin-left: auto;
     margin-right: auto 
 }
 
+/******************** end floats ************************************/
+
+/********************* formulario ***********************************/
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
@@ -93,9 +123,12 @@ form {
     border-radius: 1em;
 }
 
+/*tamanho do formulario CADASTRO*/
 #CADASTRO{
 	width:800px;
 }
+
+/*style dos campos (input)*/
 input {
 	width:750px;
     color: #eeeeee; 
@@ -106,16 +139,6 @@ input {
 	border-radius:10px;
 }
 
-div div li{
-    color:black;
-    padding: 12px;
-    width:400px;
-}
-li{
-    color:#a1aab8;
-    padding:12px;
-    width:400px;
-}
 /*margem entre os campos do formulario */
 form div + div {
     margin-top: 1em;
@@ -126,6 +149,7 @@ input:focus, textarea:focus {
     border-color: #2BE9D5;
 }
 
+/*style do botão*/
 .botaoInscrever{
     width: 1px;
     text-align: center;
@@ -134,8 +158,9 @@ input:focus, textarea:focus {
     font-size: 18px;
 }
 
+/******************* end formulario ***********************************/
 
-/*REDEFINIR TAG */
+/************* Definiçao corpo/blocos/rodapé ****************************/
 body{
     min-height: 100vh;
     width:100%;
@@ -145,10 +170,10 @@ body{
     font-size:25px;
 }
 
-.section3{
+.bloco3{
     float:left;
     padding-top:80px;
-    padding-bottom:90px;
+    padding-bottom:110px;
     background-color:#eeeeee; 
     width:100%;
 }
@@ -159,24 +184,19 @@ body{
     padding-left:150px;
     background-color:#1d3b53;
 }
+
 .bloco5{
     float:left;
     padding-top:100px;
     width:100%;
 }
 
-.texto_info{
-    font-size:25px;
-    padding:15px;
-    padding-left:150px;
-    color:#acb4c2;
-    width:600px;
-}
+/*style do rodapé*/
 footer{
     background-color:#1d3b53;
     width:100%;
     padding-top:36px;
-    padding-bottom:17px;
+    padding-bottom:px;
     margin-top:800px;
     margin-right:0px;
     margin-bottom:0px;

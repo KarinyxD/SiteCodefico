@@ -1,40 +1,50 @@
-<!-- comentario -->
+<!-- O presente código escrito em html, utiliza uma folha de estilo externa escrita em css 
+com objetivo de estilizar uma página web para o Projeto Codefico da UFSJ.
+Autora: Kariny Abrahão-->
 <!DOCTYPE html>
 <html>
-	<<head link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--importando a fonte 'Raleay'(dentro da tag head) -->
+	<head link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-    
+    <!--importando a fonte 'Arimo'(dentro da tag heead) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="estilo.css"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
-        <meta name="description" content="descriçao do conteudo da pagina (156 caracteres)"/>
-        <meta name="keywords" content="curso, python, programaçao, codefico, codigo, profissionalizante"/>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css"/> <!-- declarando a folha de estilo .css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--resoluçao adaptavel ??? -->
+		<meta charset="utf-8"> <!-- formato de codificação de caracteres utilizado (utf-8) -->
+        <meta name="description" content="descriçao do conteudo da pagina (156 caracteres)"/> <!--msg que parece na descriçao do google -->
+        <meta name="keywords" content="curso, python, programaçao, codefico, codigo, profissionalizante"/><!-- palavras chaves do site -->
 		<title>
-			Codefico - Curso Profissionalizante 
+			Codefico - Curso Profissionalizante <!--titulo do site--> 
 		</title>
 	</head>
-	<body>
+    <body> <!--Corpo do codigo-->
 		<!--Primeiro Bloco-->
-        <header><h1> CODEFICO</h1></header>
+        <header><h1>CODEFICO</h1></header>
             <section>
                 <div class = "float_left"><h2>Conheça a Programação: a habilidade que te permite automatizar tarefas!</h2>
-                    <p class="texto_branco"><strong>Conheça tudo sobre essa habilidade</strong>, o cronograma de estudo e o caminho para iniciar na programação <em>
-                        ainda em 2023</em>, <strong>sem nenhum custo, e de sua casa.</strong></p>
+                    <p class="texto_branco"><strong>Conheça tudo sobre essa habilidade</strong>, 
+                    o cronograma de estudo e o caminho para iniciar na programação <em>
+                    ainda em 2023</em>, <strong>sem nenhum custo, e de sua casa.</strong></p>
                     <!-- FORMULARIO -->
                     <form id="CADASTRO"	method="get" action="data.php">
                         <div>
-                            <input id="Nome" type="text" size="60" placeholder="Digite seu Nome" name ="nome"required/><br/> <!-- criando um campo para receber o nome-->
+                             <!-- criando um campo para receber o nome-->
+                            <input id="Nome" type="text" size="60" placeholder="Digite seu Nome" name ="nome"required/><br/>                        
                         </div>
                         <div>
-                            <input id="Email" type="text" name="email" size="60" placeholder="Digite seu Email" required/><br/> <!-- criando um campo para receber o email -->
+                             <!-- criando um campo para receber o email -->
+                            <input id="Email" type="text" name="email" size="60" placeholder="Digite seu Email" required/><br/>                     
                         </div>
                         <div>
-                            <input id="Telefone" type="tel" name="num_telefone" size ="60" class="inputpadrão" placeholder="Digite o numero do seu Telefone" required><br/>
+                            <!--criando um campo para receceer o telefone -->
+                            <input id="Telefone" type="tel" name="num_telefone" size ="60" 
+                            class="inputpadrão" placeholder="Digite o numero do seu Telefone" required><br/>
                         </div>
+                        <!--criando um botao de inscriçao -->
                         <div class="botaoInscrever">
                             <input type="submit" name="Inscrever" value="Inscrever" size="40"/><br/>
                         </div>
@@ -43,22 +53,25 @@
                         <p class="texto_rosinha">Nosso primeiro encontro acontece nos dias 06, 07 e 08 de Março, às 14h.</p>
                     </div>
                 </div>
+                <!-- Imagem do bloco 1 alinhada à direita-->
+                <div class="float_right"><img src="imagem1.png" alt="imagem1"/></div>
             </section>
-		<!-- Imagem -->
-    <div class="float_right"><img src="imagem1.png" alt="imagem1"/></div>
         <!--Segundo Bloco--> 
         <section>   
-            <div class="float_center" >
+            <div>
                 <h2><p class="text_center">O que você vai aprender, nos dias 06, 07 e 08 de Março? </p></h2>
-            <img class = "displayed" src="imagem2.png" alt="informações"/>
+                <!--Imagem do bloco 2(precisa ser alterada) -->
+                <img class = "displayed" src="imagem2.png" alt="informações"/>
             </div>
         </section>
-        <!--Terceiro Bloco-->
+        <!--Terceiro Bloco(Branco)-->
         <section>
-            <div class="section3">
+            <div class="bloco3">
                 <div class="texto_bloco3">
+                    <!-- Imagem do bloco 3 alinhada à direita-->
                     <img class="float_right" src="imagem3.png" alt="imagem3"/>
                     <h3>Por que você deve participar deste evento?</h3>
+                    <!--lista do bloco 3-->
                     <ul>
                         <li>Este é um <strong>projeto gratuito</strong>, que foi elaborado
                         por professores universitários, e alunos de graduação e pós
@@ -74,34 +87,39 @@
                         com pesquisadores e tendo apoio de alunos universitários.
                         </li>
                     </ul>
-                    <strong>Em 1 ano de preparação você estará apto a iniciar sua carreira</br>
+                    <strong>Em 1 ano de preparação você estará apto a iniciar sua carreira<br/>
                     no mercado de trabalho!</strong>
                 </div>
             </div>
-                <!--Quarto Bloco-->
-                <div class="bloco4">
-                    <img class="float_right" src="imagem4.png" alt="imagem4"/>
-                    <p class="texto_destaque">Se você é ...</p>
-                    <ul>
-                        <li>Curioso</li>
-                        <li>Mão na massa</li>
-                        <li>Sangue nos olhos</li>
-                        <li>Racional</li>
-                    </ul>
-                    <p class="texto_destaque">E não se preocupe,</br> você pode!</p>
-                    <ul>
-                        <li>Ter qualquer formação</li>
-                        <li>Estar em qualquer estágio de carreira</li>
-                        <li>Estar em qualquer nível hierárquico</li>
-                        <li>Atuar em qualquer área</li>
-                    </ul>
-                </div>
+            <!--Quarto Bloco(azul mais claro)-->
+            <div class="bloco4">
+                <!-- Imagem do bloco 4 alinhada à direita-->
+                <img class="float_right" src="imagem4.png" alt="imagem4"/>
+                <p class="texto_destaque">Se você é ...</p>
+                <!-- lista1 do bloco 4 -->
+                <ul>
+                    <li>Curioso</li>
+                    <li>Mão na massa</li>
+                    <li>Sangue nos olhos</li>
+                    <li>Racional</li>
+                </ul>
+                <p class="texto_destaque">E não se preocupe,<br/> você pode!</p>
+                <!--lista2 do bloco4 -->
+                <ul>
+                    <li>Ter qualquer formação</li>
+                    <li>Estar em qualquer estágio de carreira</li>
+                    <li>Estar em qualquer nível hierárquico</li>
+                    <li>Atuar em qualquer área</li>
+                </ul>
+            </div>
         </section>
-        <!--Quinto Bloco-->
+        <!--Quinto Bloco(Infos Codefico)-->
         <article>
             <div class="bloco5">
+                <!-- imagem do bloco 5 alinhada à direita-->
                 <img class="float_right" src="imagem5.png" alt="imagem5"/>
-                <h2> Sobre a Codefico</h2>
+                <h2> Sobre a Codefico</h2> <!--titulo-->
+                <!--texto/paragrafo/infos-->
                 <p class="texto_info">Somos um projeto, que envolve diversos profissionais e estudantes,
                 <strong>apaixonados por tecnologia.</strong>
                 Tendo esta primeira edição, em 2023. Ensinando a profissão que vem
@@ -111,12 +129,13 @@
                 algo relevante e sendo bem remunerado!
                 Temos como <strong>meta</strong>: colocar no mercado <strong>o maior número de
                 profissionais</strong> preparados <em>em um ano</em>.
-                A pergunta que fica é: <stong>você quer ser um desses profissionais
+                A pergunta que fica é: <strong>você quer ser um desses profissionais
                 ainda em 2023?</strong></p>        
             </div>
         </article>
         <!--Rodapé da pagina -->
         <footer>
+            <!--Imagem com texto do rodapé-->
             <img src="rodape.png" alt="logo"/>
         </footer>
 	</body>
