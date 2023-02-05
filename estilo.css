@@ -13,8 +13,16 @@ h2{
     font-size: 32px
 }
 h3{
-    color:#fc514e;
+    coor:#fc514e;
     font-size: 32px;
+}
+
+article div h2{
+    text-align: left;
+    color: #a1cd5e;
+    align:left;
+    margin-left:250px;
+    font-size: 32px
 }
 .texto_branco{
     color:#eeeeee;
@@ -37,16 +45,8 @@ div p strong{
     width:252px;
 }
 .float_right{
-    color: red;
 	float:right;
 	margin-right:0px;
-}
-
-.float_left{
- 	color: #0018ff;
-	float:left;
-	width:620px;
-	margin-left:50px;
 }
 
 .float_center{
@@ -62,16 +62,7 @@ div p strong{
 	margin-left:50px;
 }
 
-.float_left2{
- 	color: #0018ff;
-	margin-left:50px;
-    clear:both
-}
-
-
-/*----------------------------------------------------- 2*/
-
-.texto{ 
+.float_left2texto{ 
 	font-family:Arial;
 	font-size:15px;
 	color:#ff0000
@@ -146,6 +137,8 @@ input:focus, textarea:focus {
 
 /*REDEFINIR TAG */
 body{
+    min-height: 100vh;
+    width:100%;
 	background-color: #011627;
 	margin:0px;
     font-family:'Raleway';
@@ -168,5 +161,25 @@ body{
 }
 .bloco5{
     float:left;
+    padding-top:100px;
     width:100%;
+}
+
+.texto_info{
+    font-size:25px;
+    padding:15px;
+    padding-left:150px;
+    color:#acb4c2;
+    width:600px;
+}
+footer{
+    background-color:#1d3b53;
+    width:100%;
+    padding-top:36px;
+    padding-bottom:17px;
+    margin-top:800px;
+    margin-right:0px;
+    margin-bottom:0px;
+    color:white;
+    text-color:white;
 }
