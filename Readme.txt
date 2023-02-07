@@ -1,3 +1,7 @@
+Por enquanto, o site está adaptado apenas para
+resolução 1920x1080.
+
+
 **Coisas para melhorar/implementar no site**
 
 -Resoluçao adaptável
