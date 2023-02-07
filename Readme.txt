@@ -1,3 +1,4 @@
+Deve-se baixar todos os arquivos em uma mesma pasta e abrir o arquivo index.html com o navegador.
 Por enquanto, o site está adaptado apenas para
 resolução 1920x1080.
 
