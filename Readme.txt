@@ -1,6 +1,7 @@
 Deve-se baixar todos os arquivos em uma mesma pasta e abrir o arquivo index.html com o navegador.
 Algumas das imagens utilizadas precisam ser trocadas, pois foram retiradas da internet como exemplo.
 Por enquanto, o site está adaptado apenas pararesolução 1920x1080.
+Paleta utilizada: https://github.com/bluz71/vim-nightfly-colors
 
 
 **Coisas para melhorar/implementar no site**
