@@ -1,6 +1,6 @@
 Deve-se baixar todos os arquivos em uma mesma pasta e abrir o arquivo index.html com o navegador.
-Por enquanto, o site está adaptado apenas para
-resolução 1920x1080.
+Algumas das imagens utilizadas precisam ser trocadas, pois foram retiradas da internet como exemplo.
+Por enquanto, o site está adaptado apenas pararesolução 1920x1080.
 
 
 **Coisas para melhorar/implementar no site**
